@@ -24,3 +24,20 @@ footer {
   height: 18vh;
   background-color: lightblue;
 }
+
+.container {
+
+}
+
+.center {
+  height: 300px;
+  width: 300px;
+  background-color: violet;
+  float: left;
+}
+
+.left , .right {
+  height: 100px;
+  width: 80px;
+  background-color: pink;
+}
