@@ -4,7 +4,23 @@
   padding: 0;
 }
 
-/* main {
-  background-color: black;
+body {
   height: 100vh;
-} */
+  margin: 2vh 10vh;
+  background-color: red
+}
+
+header {
+  height: 18vh;
+  background-color: yellow;
+}
+
+main {
+  background-color: black;
+  height: 60vh;
+}
+
+footer {
+  height: 18vh;
+  background-color: lightblue;
+}
