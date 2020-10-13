@@ -66,10 +66,6 @@ aside {
   float: left;
 }
 
-.right {
-  float: right;
-}
-
-#asright {
+.right , #asright {
   float: right;
 }
