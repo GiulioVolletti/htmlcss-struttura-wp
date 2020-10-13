@@ -7,21 +7,24 @@
 body {
   height: 100vh;
   margin: 2vh 10vh;
-  background-color: red
+  /* background-color: red */
 }
 
 header {
-  height: 18vh;
+  height: 20vh;
   background-color: yellow;
 }
 
 main {
-  background-color: black;
+  /* background-color: black; */
   height: 60vh;
+  margin: 10px;
+  position: relative;
 }
 
 footer {
-  height: 18vh;
+  height: 15vh;
+  margin: 15px;
   background-color: lightblue;
 }
 
@@ -37,8 +40,13 @@ main::after {
 }
 
 .center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
   height: 100%;
   width: 40%;
+  margin: 10px 0;
   background-color: violet;
 }
 
@@ -48,6 +56,7 @@ aside {
 }
 
 .left , .right {
+  margin: 10px;
   height: 40%;
   width: 90%;
   background-color: pink;
@@ -58,6 +67,9 @@ aside {
 }
 
 .right {
-  margin: 10px;
+  float: right;
+}
+
+#asright {
   float: right;
 }
